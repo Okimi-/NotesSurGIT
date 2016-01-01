@@ -41,3 +41,5 @@ Récupérer depuis un repository : git clone +URL (en HTTPS)
 Envoyer mes modifications : git pull origin master (github va demander le nom d'utilisateur et le mot de passe)
 
 Récupérer les modification apportées sur le Repository : git pull origin master
+
+Pas d'autres modifs...
