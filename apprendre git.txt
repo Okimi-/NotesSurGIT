@@ -36,4 +36,10 @@ Un remote est un ordinateur possédant une copie du repository. Il sert de sauve
 
 Deux services de Remote : Github et Gitbucket
 
-Récupérer depuis un repository : git clone +URL
+Récupérer depuis un repository : git clone +URL (en HTTPS)
+
+Envoyer mes modifications : git pull origin master (github va demander le nom d'utilisateur et le mot de passe)
+
+Récupérer les modification apportées sur le Repository : git pull origin master
+
+Récupérer les modifications : git pull
