@@ -1,0 +1,39 @@
+﻿
+GIT - Résumé du chapitre 1
+--------------------------
+
+GIT (proconcer GUITE), a été crée en 2005 par Linus Torvald.
+C'est un logiciel de versionning distribué.
+
+Le repository est enregistré en local, dans le répertoire de travail.
+
+Définir de manière globale ( sur l'ordinateur), l'utilisateur en cours et le mot de passe
+git config --global user.name "Votre nom ou pseudo"
+git config --global user.email "Votre@email.com"
+
+
+Pour définir un répertoire comme répertoire GIT, utiliser la commande : git init
+
+
+
+1 Commit = 1 Envois
+
+git add	"NONDUFICHIER"		Ajoutes un fichier modifié
+git commit -m "MESSAGE"		Fait le commit des fichiers ajoutés
+git commit -am "MESSAGE"	Fait l'ajout de tous les fichiers modifiés et le commit de ces  fichiers
+git log						Liste les changements des commits
+git checkout xxxxx (SHA)
+git checkout master
+
+
+Note : A la différente de la gestion des versions intégrée à WinDev, il faut, dans GIT, deux commandes pour réintégrer un fichier modifié dans le repository (un add et un commit).
+
+
+GIT - Résumé du chapitre 2
+--------------------------
+
+Un remote est un ordinateur possédant une copie du repository. Il sert de sauvegarde au projet.
+
+Deux services de Remote : Github et Gitbucket
+
+Récupérer depuis un repository : git clone +URL
