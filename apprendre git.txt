@@ -42,4 +42,4 @@ Envoyer mes modifications : git pull origin master (github va demander le nom d'
 
 Récupérer les modification apportées sur le Repository : git pull origin master
 
-Pas d'autres modifs...
+Idéalement, il est conseillé de faire un git pull le matin git push et un git push le soir, pour que l'équipe de développement soit à jour.
