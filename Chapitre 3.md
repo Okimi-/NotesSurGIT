@@ -1,8 +1,8 @@
 GIT - Chapitre 3
 ================
 
-Les branches
-------------
+Créer des branches
+------------------
 
 Créer une nouvelle branche, à partir du point ou l'on se trouve
 
@@ -16,4 +16,11 @@ Basculer sur une branche
 Voir la liste des branches
 
     git branch
+
+Fusionner des branches
+----------------------
+
+Pour fusionner une branche sur la branche maître, il faut se positionner sur la branche master et utiliser la commande
+
+    git merge NOM_DE_LA_BRANCHE
 
