@@ -24,3 +24,4 @@ Pour fusionner une branche sur la branche maître, il faut se positionner sur la
 
     git merge NOM_DE_LA_BRANCHE
 
+Note : A la suite d'une fusion, la branche fusionnée n'est pas supprimée.
