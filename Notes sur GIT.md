@@ -7,26 +7,32 @@ Le repository est enregistré en local, dans le répertoire de travail.
 
 Vocabulaire : 1 Commit = 1 Validation
 
-Définir de manière globale ( sur l'ordinateur), l'utilisateur en cours et le mot de passe
-  git config --global user.name "Votre nom ou pseudo"
-  git config --global user.email "Votre@email.com"
+Pour configurer GIT De manière globale sur l'ordinateur
 
-Pour définir un répertoire comme répertoire GIT, utiliser la commande :
-  git init
+    git config --global user.name "Votre nom ou pseudo"
+    git config --global user.email "Votre@email.com"
 
-Ajouter un fichier
-  git add	"NONDUFICHIER"
+Définir un répertoire comme répertoire suivit par GIT
+
+    git init
+
+Ajouter un fichier qur GIT doit suivre
+
+    git add	"NONDUFICHIER"
 
 Ajoute de tous les fichiers modifiés
-  git commit -m "MESSAGE"
-  git commit -am "MESSAGE"
+
+    git commit -m "MESSAGE"
+    git commit -am "MESSAGE"
   
 Affiche la liste les changements des différentes validations (COMMIT)
-  git log						Liste les changements des commits
 
-Pour se positionner sur une version des sources  
-  git checkout xxxxx (SHA)
-  git checkout master
+    git log
+
+Pour se positionner sur une version des sources
+
+    git checkout xxxxx (SHA)
+    git checkout master
 
 Note : A la différente de la gestion des versions intégrée à WinDev, il faut, dans GIT, deux commandes pour réintégrer un fichier modifié dans le repository (un add et un commit).
 
