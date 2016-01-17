@@ -8,10 +8,11 @@ Créer une nouvelle branche, à partir du point ou l'on se trouve
 
     git branch NOM_DE_LA_BRANCHE
 
-Basculer sur une branche
+Basculer sur une branche.  
+*Note : Avant de basculer d'une branche à l'autre, il faut faire un "Commit" des modifications.*
 
     git checkout NOM_DE_LA_BRANCHE
-    git branch master (pour revenir sur la branche maître)
+    git checkout master (pour revenir sur la branche maître)
 
 Voir la liste des branches
 
