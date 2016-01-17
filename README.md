@@ -1,4 +1,5 @@
-Notes de cours
-==============
+Notes du cours : Gérer son code avec Git et GitHub
+==================================================
 
-Ceci est un repository de test. Il est utilisé pour tester le cours GIT d'Openclass Room : Gérer son code avec Git et GitHub <https://openclassrooms.com/courses/gerer-son-code-avec-git-et-github> et sert principalement de bloc notes.
+Cours GIT d'Openclass Room, par Marc Gauthier.
+<https://openclassrooms.com/courses/gerer-son-code-avec-git-et-github>
