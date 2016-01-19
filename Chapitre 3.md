@@ -46,3 +46,10 @@ Il faut résoudre le conflit *à la main* en conservant (ou pas) les sections de
     git commit
 
 Celle-ci va afficher un texte de commit automatique, qu'il ne reste plus qu'a valider. A la suite du *git commit*, les branches sont fusionnées.
+
+Savoir qui a fait une modification
+----------------------------------
+
+Pour connaitre la personne qui est à l'origine d'une modification sur un fichier
+
+    git blame
