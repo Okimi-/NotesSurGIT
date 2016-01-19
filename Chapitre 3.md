@@ -58,3 +58,7 @@ Cette commande va retourner toutes les lignes du fichier. Elles sont marquées p
 
     git show 8 PREMIERS CARACTERE DU SHA
 
+Ignorer des fichiers
+--------------------
+
+Il est possible d'indiquer à git, des fichiers dont il ne faut pas assurer le suivi. Pour cela, on utilise un fichier de configuration appelé *.gitignore*.
