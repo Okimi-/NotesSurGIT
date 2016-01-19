@@ -50,6 +50,11 @@ Celle-ci va afficher un texte de commit automatique, qu'il ne reste plus qu'a va
 Savoir qui a fait une modification
 ----------------------------------
 
-Pour connaitre la personne qui est à l'origine d'une modification sur un fichier
+Pour connaitre la personne qui est à l'origine d'une modification sur un fichier :
 
-    git blame
+    git blame NOM DU FICHIER
+
+Cette commande va retourner toutes les lignes du fichier. Elles sont marquées par les 8 premiers caractères du SHA correspondant au dernier *commit* ayant modifié la ligne. Ces 8 premiers caractères peuvent aussi être utilisés dans la commande *git show* qui montrera plus précisément les modifications du fichier.
+
+    git show 8 PREMIERS CARACTERE DU SHA
+
