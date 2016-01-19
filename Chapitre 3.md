@@ -31,5 +31,12 @@ Résoudre un conflit
 -------------------
 
 Si le même fichier sur deux branches différentes est modifié, la commande *git merge* lève une erreur  
-CONFLICT (content): Merge conflict in NOM DU FICHIER  
-Automatic merge failed; fix conflics and then commit the result.  
+**CONFLICT (content): Merge conflict in NOM DU FICHIER**  
+**Automatic merge failed; fix conflics and then commit the result.**  
+Avec le nom du ou des fichiers en conflit. Dans ces fichiers en conflit, les sections de texte qui n'ont pas pu être fusionnées, sont marquées comme ceci :
+
+    <<<<<<<< HEAD
+    PARTIE DU FICHIER PRINCIPAL
+    =======
+    PARTIE DU FICHIER FUSIONNE
+    >>>>>>>> modif
