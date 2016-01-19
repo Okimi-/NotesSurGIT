@@ -26,3 +26,10 @@ Pour fusionner une branche sur la branche maître, il faut se positionner sur la
     git merge NOM_DE_LA_BRANCHE
 
 Note : A la suite d'une fusion, la branche fusionnée n'est pas supprimée.
+
+Résoudre un conflit
+-------------------
+
+Si le même fichier sur deux branches différentes est modifié, la commande *git merge* lève une erreur  
+CONFLICT (content): Merge conflict in NOM DU FICHIER  
+Automatic merge failed; fix conflics and then commit the result.  
