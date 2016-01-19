@@ -40,3 +40,9 @@ Avec le nom du ou des fichiers en conflit. Dans ces fichiers en conflit, les sec
     =======
     PARTIE DU FICHIER FUSIONNE
     >>>>>>>> modif
+
+Il faut résoudre le conflit *à la main* en conservant (ou pas) les sections de texte. On marque la résolution du conflit à l'aide de la commande
+
+    git commit
+
+Celle-ci va afficher un texte de commit automatique, qu'il ne reste plus qu'a valider. A la suite du *git commit*, les branches sont fusionnées.
