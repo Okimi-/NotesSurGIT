@@ -90,3 +90,13 @@ A la suite des changements et des *Commit*, les modifications sont envoyées sur
     git push origin NOM_DE_LA_BRANCHE
 
 La branche des modifications peux ensuite être soumise au compte GitHub d'origine par un *Pull Request*, directement sur le site GitHub de notre propre compte.
+
+Exercice : Expliquer GIT
+------------------------
+
+GIT est un ensemble de mécanismes qui permettent d'enregistrer et de suivre l'évolution des sources d'un projet informatique, tout au long de son développement. Il n'y a rien de plus simple, il faut seulement déclarer le répertoire contenant les sources du projet comme étant suivi par GIT.  
+A chaque modification significative du code source, on déclare à GIT, qu'il faut mémoriser l'évolution en cours. Une mémorisation, en langage GIT s'appelle : un **Commit**. Chaque **Commit** est obligatoirement accompagné d'un texte explicatif des modifications qui ont été apportées.  
+Comme cela, au fur et à mesure de l'évolution d'un projet, on peut dire quel développeur a modifié quel(s) fichier(s) et quand. Et il y a même qu'une seule commande suivre les évolutions : *git log*.  
+
+Il faut voir l'évolution d'un projet informatique comme une suite de mémorisations de l'état de ce projet. Mais cette évolution n'est pas linéaire, surtout quand il y a plusieurs développeurs sur le même projet. *Par exemple, un développeur va vouloir mettre en place une fonctionnalité, mais tant qu'elle n'est pas terminée, il ne veut pas diffuser celle-ci.*  
+GIT autorise la création de branches, que l'on peut imaginer comme une copie de travail dédiée à des modifications. L'intérêt de celle-ci, c'est qu'un développeur peut réaliser des modifications dans sa branche et si les modifications lui conviennent, elles seront réintégrées dans le projet principal. Au contraire, la fonction développée ne fonctionne pas, la branche est annulée et le développeur retrouve ses sources dans l'état qu'elles étaient avant la création de celle-ci.
