@@ -19,6 +19,10 @@ Voir la liste des branches
 
     git branch
 
+Supprimer une branche
+
+    git branch -d NOM_DE_LA_BRANCHE
+
 Fusionner des branches
 ----------------------
 
