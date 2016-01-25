@@ -62,3 +62,15 @@ Ignorer des fichiers
 --------------------
 
 Il est possible d'indiquer à git, des fichiers dont il ne faut pas assurer le suivi. Pour cela, on utilise un fichier de configuration appelé *.gitignore*.
+
+Eviter les Commits supperflus
+-----------------------------
+
+Utilisation d'un Commit temporaire pour sauvegarder des modifications
+
+    git stach
+
+Après le git stach, on revient sur l'état précédent les modifications, sur lequel on peux appliquer des modifications. Et pour revenir à cet état sauvegardée, il suffit d'utiliser
+
+    git stach pop
+
