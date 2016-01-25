@@ -75,7 +75,7 @@ Après *git stach*, on revient sur l'état précédent les modifications, sur le
 
     git stach pop
 
-!!! Attention, l'utilisation de *git statch pop* supprime ce qui a été mé mis de côté...
+!!! Attention, l'utilisation de *git statch pop* supprime ce qui a été mis de côté...
 
 Contribuer à des projets Open Source
 ------------------------------------
@@ -85,4 +85,4 @@ A la suite des changements et des *Commit*, les modifications sont envoyées sur
 
     git push origin NOM_DE_LA_BRANCHE
 
-La branche des modifications peux ensuite être soumise au compte GitHub d'origine par un *Pull Request*, directement sur le site GitHub de notre propore compte.
+La branche des modifications peux ensuite être soumise au compte GitHub d'origine par un *Pull Request*, directement sur le site GitHub de notre propre compte.
