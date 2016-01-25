@@ -13,6 +13,7 @@ Basculer sur une branche.
 
     git checkout NOM_DE_LA_BRANCHE
     git checkout master (pour revenir sur la branche maître)
+    git checkout -b NOM_DE_LA_BRANCHE (créer la branche et se positionne sur celle-ci)
 
 Voir la liste des branches
 
@@ -70,7 +71,8 @@ Utilisation d'un Commit temporaire pour sauvegarder des modifications
 
     git stach
 
-Après le git stach, on revient sur l'état précédent les modifications, sur lequel on peux appliquer des modifications. Et pour revenir à cet état sauvegardée, il suffit d'utiliser
+Après *git stach*, on revient sur l'état précédent les modifications, sur lequel on peux appliquer des modifications. Et pour revenir à cet état sauvegardée, il suffit d'utiliser
 
     git stach pop
 
+!!! Attention, l'utilisation de *git statch pop* supprime ce qui a été mé mis de côté...
